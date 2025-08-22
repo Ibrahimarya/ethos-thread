@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5 contents and 25 days with Eth OS</title>
+    <style>
+        * { 
+            margin: 0; 
+            padding: 0; 
+            box-sizing: border-box; 
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #e6e6e6;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            padding: 30px 20px;
+            margin-bottom: 30px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 15px;
+            box-shadow: 0 8px 32px rgba(31, 38, 135, 0.2);
+            backdrop-filter: blur(4px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .header h1 {
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+            background: linear-gradient(90deg, #4cc9f0, #f72585);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.8;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .image-box {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        .image-box:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+        }
+        .image-box img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            display: block;
+        }
+        .image-box .content {
+            padding: 20px;
+            text-align: center;
+        }
+        .image-box h3 {
+            font-size: 1.4rem;
+            margin-bottom: 10px;
+        }
+        .image-box h3 a {
+            color: #4cc9f0;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .image-box h3 a:hover {
+            color: #f72585;
+            text-decoration: underline;
+        }
+        .image-box p {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            opacity: 0.8;
+        }
+        .token-address {
+            background: rgba(76, 201, 240, 0.1);
+            border-radius: 8px;
+            padding: 12px 15px;
+            margin-top: 15px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.85rem;
+            word-break: break-all;
+            border: 1px solid rgba(76, 201, 240, 0.3);
+        }
+        .token-address strong {
+            color: #4cc9f0;
+            display: block;
+            margin-bottom: 5px;
+            font-size: 0.9rem;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            font-size: 0.9rem;
+            opacity: 0.7;
+        }
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2.2rem;
+            }
+            .container {
+                grid-template-columns: 1fr;
+                max-width: 500px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>5 contents and 25 days with Eth OS</h1>
+        <p>DeFi's largest gamified experiment: a recursive flywheel of seven composable mechanics designed for users to create like never before.</p>
+    </header>
+    
+    <div class="container">
+        <!-- Konten 1: Tweet Ethereum OS -->
+        <div class="image-box">
+            <img src="launcher.jpg" alt="Tweet Ethereum OS">
+            <div class="content">
+                <h3><a href="https://x.com/Ethereum_OS/status/1952418306721186092" target="_blank" rel="noopener">Launcher</a></h3>
+                <p>We've collected the most innovative and gamified mechanics in DeFi</p>
+            </div>
+        </div>
+        
+        <!-- Konten 2 -->
+        <div class="image-box">
+            <img src="Experience.jpg" alt="Experience">
+            <div class="content">
+                <h3><a href="https://x.com/Ethereum_OS/status/1954592602075877840?t=8K2m8O9upH9aU27yj_4asA&s=19" target="_blank" rel="noopener">Experience</a></h3>
+                <p>Eth OS brings everything you need into one seamless system</p>
+            </div>
+        </div>
+        
+        <!-- Konten 3 -->
+        <div class="image-box">
+            <img src="Mechanics.jpg" alt="Mechanics">
+            <div class="content">
+                <h3><a href="https://x.com/Ethereum_OS/status/1955680740232024083?t=8K2m8O9upH9aU27yj_4asA&s=19" target="_blank" rel="noopener">Mechanics</a></h3>
+                <p>Eth OS brings 7 gamified mechanics you control—all composable and all designed to keep you engaged with the token you create</p>
+            </div>
+        </div>
+        
+        <!-- Konten 4 -->
+        <div class="image-box">
+            <img src="Mechanics2.jpg" alt="Mechanics Architecture">
+            <div class="content">
+                <h3><a href="https://x.com/Ethereum_OS/status/1956766893639077921?t=8K2m8O9upH9aU27yj_4asA&s=19" target="_blank" rel="noopener">Mechanics Architecture</a></h3>
+                <p>How can you create a place for people to create like never before</p>
+            </div>
+        </div>
+        
+        <!-- Konten 5 -->
+        <div class="image-box">
+            <img src="tools.jpg" alt="Tools">
+            <div class="content">
+                <h3><a href="https://x.com/Ethereum_OS/status/1957854126768885921?t=8K2m8O9upH9aU27yj_4asA&s=19" target="_blank" rel="noopener">Tools</a></h3>
+                <p>Following our previous exploration of creating, trading, and interacting via the Launcher, Launchpad, and Chat, let's delve into further tools available in the Eth OS ecosystem</p>
+                
+                <!-- Tambahan alamat kontrak token $AIR -->
+                <div class="token-address">
+                    <strong>$AIR Contract Address</strong>
+                    0x8164B40840418C77A68F6f9EEdB5202b36d8b288
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>© 2025 5 contents and 25 days with Eth OS | By : @0xSpac3 </p>
+    </div>
+</body>
+</html>
